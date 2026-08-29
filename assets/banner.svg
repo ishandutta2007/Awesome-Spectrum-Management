@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2" />
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: 2px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      fill: #94a3b8;
+      letter-spacing: 3px;
+    }
+    .badge-pill {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .grid-line {
+      stroke: #1e293b;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Technical Grid Background -->
+  <g opacity="0.4">
+    <line x1="100" y1="0" x2="100" y2="360" class="grid-line" />
+    <line x1="250" y1="0" x2="250" y2="360" class="grid-line" />
+    <line x1="400" y1="0" x2="400" y2="360" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="360" class="grid-line" />
+    <line x1="700" y1="0" x2="700" y2="360" class="grid-line" />
+    <line x1="850" y1="0" x2="850" y2="360" class="grid-line" />
+    <line x1="1000" y1="0" x2="1000" y2="360" class="grid-line" />
+    <line x1="1150" y1="0" x2="1150" y2="360" class="grid-line" />
+
+    <line x1="0" y1="60" x2="1200" y2="60" class="grid-line" />
+    <line x1="0" y1="120" x2="1200" y2="120" class="grid-line" />
+    <line x1="0" y1="180" x2="1200" y2="180" class="grid-line" />
+    <line x1="0" y1="240" x2="1200" y2="240" class="grid-line" />
+    <line x1="0" y1="300" x2="1200" y2="300" class="grid-line" />
+  </g>
+
+  <!-- Animated Spectrum Waterfall / Spectrum Bars (Dynamic Aspect) -->
+  <g transform="translate(100, 310)" opacity="0.85">
+    <!-- Spectrum Analyzer Frequency Bars with Pulse Animation -->
+    <rect x="0" y="-30" width="8" height="30" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="30;85;45;110;30" dur="3.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-30;-85;-45;-110;-30" dur="3.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="14" y="-50" width="8" height="50" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="50;120;70;40;50" dur="2.7s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-50;-120;-70;-40;-50" dur="2.7s" repeatCount="indefinite" />
+    </rect>
+    <rect x="28" y="-75" width="8" height="75" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="75;40;130;90;75" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-75;-40;-130;-90;-75" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="42" y="-130" width="8" height="130" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="130;160;100;175;130" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-130;-160;-100;-175;-130" dur="2.4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="56" y="-90" width="8" height="90" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="90;140;60;110;90" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-90;-140;-60;-110;-90" dur="3.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="70" y="-40" width="8" height="40" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="40;95;130;60;40" dur="2.9s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-40;-95;-130;-60;-40" dur="2.9s" repeatCount="indefinite" />
+    </rect>
+    <rect x="84" y="-65" width="8" height="65" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="65;35;80;115;65" dur="3.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-65;-35;-80;-115;-65" dur="3.1s" repeatCount="indefinite" />
+    </rect>
+    <rect x="98" y="-110" width="8" height="110" rx="3" fill="url(#barGrad1)">
+      <animate attributeName="height" values="110;60;145;80;110" dur="2.6s" repeatCount="indefinite" />
+      <animate attributeName="y" values="-110;-60;-145;-80;-110" dur="2.6s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Right Side Spectrum Bars -->
+    <g transform="translate(860, 0)">
+      <rect x="0" y="-45" width="8" height="45" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="45;95;35;125;45" dur="3.4s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-45;-95;-35;-125;-45" dur="3.4s" repeatCount="indefinite" />
+      </rect>
+      <rect x="14" y="-120" width="8" height="120" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="120;60;150;90;120" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-120;-60;-150;-90;-120" dur="2.5s" repeatCount="indefinite" />
+      </rect>
+      <rect x="28" y="-70" width="8" height="70" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="70;135;85;45;70" dur="3.3s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-70;-135;-85;-45;-70" dur="3.3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="42" y="-150" width="8" height="150" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="150;110;175;130;150" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-150;-110;-175;-130;-150" dur="2.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="56" y="-85" width="8" height="85" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="85;45;115;70;85" dur="3.6s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-85;-45;-115;-70;-85" dur="3.6s" repeatCount="indefinite" />
+      </rect>
+      <rect x="70" y="-105" width="8" height="105" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="105;155;65;110;105" dur="2.9s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-105;-155;-65;-110;-105" dur="2.9s" repeatCount="indefinite" />
+      </rect>
+      <rect x="84" y="-55" width="8" height="55" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="55;85;120;40;55" dur="3.2s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-55;-85;-120;-40;-55" dur="3.2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="98" y="-35" width="8" height="35" rx="3" fill="url(#barGrad1)">
+        <animate attributeName="height" values="35;90;45;115;35" dur="2.7s" repeatCount="indefinite" />
+        <animate attributeName="y" values="-35;-90;-45;-115;-35" dur="2.7s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- Continuous Dynamic Sine Wave (RF Carrier) -->
+  <path d="M 0 260 Q 150 200 300 260 T 600 260 T 900 260 T 1200 260" fill="none" stroke="url(#waveGrad1)" stroke-width="2.5" filter="url(#glow)">
+    <animate attributeName="d" 
+      values="M 0 260 Q 150 200 300 260 T 600 260 T 900 260 T 1200 260;
+              M 0 260 Q 150 320 300 260 T 600 260 T 900 260 T 1200 260;
+              M 0 260 Q 150 200 300 260 T 600 260 T 900 260 T 1200 260" 
+      dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Secondary Phase-shifted Wave -->
+  <path d="M 0 275 Q 150 330 300 275 T 600 275 T 900 275 T 1200 275" fill="none" stroke="url(#waveGrad2)" stroke-width="2" opacity="0.75" filter="url(#subtleGlow)">
+    <animate attributeName="d" 
+      values="M 0 275 Q 150 330 300 275 T 600 275 T 900 275 T 1200 275;
+              M 0 275 Q 150 220 300 275 T 600 275 T 900 275 T 1200 275;
+              M 0 275 Q 150 330 300 275 T 600 275 T 900 275 T 1200 275" 
+      dur="6.5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Center Content Area -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    <!-- Tag Pill -->
+    <rect x="-175" y="0" width="350" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+    <circle cx="-148" cy="15" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="5" y="20" class="badge-pill">📡 SPECTRUM INTELLIGENCE &amp; RF ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="85" class="title-text" fill="url(#textGrad)" filter="url(#glow)">AWESOME SPECTRUM MANAGEMENT</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="125" class="subtitle-text">RF PLANNING • PROPAGATION MODELING • FREQUENCY COORDINATION • SDR</text>
+
+    <!-- Feature Badges -->
+    <g transform="translate(0, 160)">
+      <!-- Item 1 -->
+      <rect x="-350" y="0" width="160" height="28" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="-270" y="18" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#38bdf8" text-anchor="middle">📊 SaaS Platforms</text>
+
+      <!-- Item 2 -->
+      <rect x="-170" y="0" width="160" height="28" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="-90" y="18" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#818cf8" text-anchor="middle">🌐 Open-Source SDR</text>
+
+      <!-- Item 3 -->
+      <rect x="10" y="0" width="160" height="28" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="90" y="18" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c084fc" text-anchor="middle">⚡ RF Propagation</text>
+
+      <!-- Item 4 -->
+      <rect x="190" y="0" width="160" height="28" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="270" y="18" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">🛡️ Spectrum Defense</text>
+    </g>
+  </g>
+</svg>
