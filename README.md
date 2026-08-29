@@ -56,113 +56,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-* **[LS telcom](https://www.lstelcom.com/)**
-
-  Major spectrum-management and RF engineering provider offering platforms for spectrum policy, licensing, frequency planning, technical analysis, spectrum monitoring and automated spectrum-management workflows. Its portfolio includes systems such as mySPECTRA, SPECTRAplan and SPECTRAemc.
-
-
-
-* **[Comsearch](https://www.comsearch.com/)**
-
-  Spectrum-management and wireless engineering provider offering frequency coordination, interference analysis, licensing support and RF engineering services.
-
-
-
-* **[Forsk Atoll](https://www.forsk.com/atoll-overview)**
-
-  Industry-leading multi-technology RF planning and optimization platform supporting 2G, 3G, 4G and 5G network design, coverage prediction, propagation modelling and network optimization.
-
-
-
-* **[Infovista Planet](https://www.infovista.com/)**
-
-  Radio network planning and optimization platform supporting mobile network design, propagation modelling, coverage planning and performance analysis.
-
-
-
-* **[Transfinite Visualyse](https://www.transfinite.com/)**
-
-  RF and spectrum-engineering platform focused on satellite, terrestrial and mixed wireless-system interference analysis, spectrum sharing and regulatory studies.
-
-
-
-* **[ATDI ICS Telecom](https://www.atdi.com/)**
-
-  RF planning and spectrum-management software platform supporting coverage analysis, frequency planning, interference analysis and wireless network engineering.
-
-
-
-* **[Anritsu Spectrum Master](https://www.anritsu.com/)**
-
-  Professional spectrum-analysis and field-test product family supporting RF measurements, interference detection, signal analysis and wireless network troubleshooting.
-
-
-
-* **[Keysight Nemo Outdoor](https://www.keysight.com/)**
-
-  Drive-test and wireless network measurement platform supporting field data collection, RF performance analysis and mobile-network optimization.
-
-
-
-* **[TEOCO ASSET](https://www.teoco.com/)**
-
-  Radio access network planning and optimization platform supporting RF engineering, capacity planning, coverage analysis and network-performance optimization.
-
-
-
-* **[CloudRF](https://cloudrf.com/)**
-
-  Cloud-based RF propagation and radio-network modelling platform supporting terrain analysis, coverage prediction and wireless network planning.
-
-
-
-* **[Ranplan](https://www.ranplanwireless.com/)**
-
-  Wireless network planning platform focused on indoor and outdoor radio planning, 5G, Wi-Fi and heterogeneous wireless networks.
-
-
-
-* **[iBwave](https://www.ibwave.com/)**
-
-  Professional RF design and planning platform widely used for indoor wireless networks, distributed antenna systems and private cellular deployments.
-
-
-
-* **[Aviat WTM](https://www.aviatnetworks.com/)**
-
-  Wireless network planning and optimization solutions for microwave and wireless infrastructure.
-
-
-
-* **[Siterra](https://www.siterra.com/)**
-
-  Telecom infrastructure and site-management platform that can support planning and lifecycle management of wireless network assets.
-
-
-
-* **[Ericsson Network Intelligence](https://www.ericsson.com/)**
-
-  Network planning, optimization and analytics technologies supporting mobile-network performance and radio resource optimization.
-
-
-
-* **[Nokia AVA](https://www.nokia.com/networks/services/ava/)**
-
-  Network analytics and automation platform supporting telecom network intelligence, operations and optimization.
-
-
-
-* **[Airbus Spectrum Management](https://www.airbus.com/)**
-
-  Defence and secure communications technologies supporting spectrum operations, electromagnetic analysis and mission-critical communications.
-
-
-
-* **[Rohde & Schwarz Spectrum Monitoring](https://www.rohde-schwarz.com/)**
-
-  Professional spectrum monitoring, direction finding and RF measurement solutions for regulators, operators and security organizations.
+| Platform / Product | Description & Core Capabilities | Pricing (Starting Tiers) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[LS telcom](https://www.lstelcom.com/)** | Enterprise spectrum-management and RF engineering suite (mySPECTRA, SPECTRAplan, SPECTRAemc) covering policy, licensing, frequency coordination, and automated monitoring workflows. | Modular software licenses starting from **€5,000–€15,000/year** (enterprise system rollouts based on formal regulatory tender/project specifications) | **No free-forever plan**; Request-based guided evaluation demo available with sample national spectrum databases upon sales consultation. |
+| **[Comsearch](https://www.comsearch.com/)** | Spectrum management and wireless engineering service providing microwave frequency coordination, FCC licensing, interference analysis, and spectrum protection. | Starting at **$150–$350 per frequency path coordination** / licensing filing fee; annual enterprise engineering retainer plans available | **No free-forever plan**; Free initial telecom consultation and baseline interference evaluation quote upon request. |
+| **[Forsk Atoll](https://www.forsk.com/atoll-overview)** | Multi-technology RF planning and optimization platform supporting 2G, 3G, 4G, and 5G network design, propagation modeling, and RAN optimization. | Perpetual/annual workstation licenses starting from **€5,000–€10,000** per seat (annual maintenance support from ~€1,500/year; training from €1,500) | **No free-forever plan**; Request-based guided interactive product demo with sample operator network datasets via Forsk representatives. |
+| **[Infovista Planet](https://www.infovista.com/)** | Radio network planning and optimization platform (VistaPlan Go / Planet Cloud) supporting mobile network design, 5G NR propagation modeling, and coverage analytics. | Starting from **$3,000–$8,000/year per user license** depending on selected technology modules; enterprise multi-seat plans on quotation | **No free-forever plan**; Request-based personalized interactive demo session and on-demand Demo Gallery workflow access. |
+| **[Transfinite Visualyse](https://www.transfinite.com/)** | RF and spectrum-engineering platform for satellite, terrestrial, and mixed wireless systems interference analysis, spectrum sharing, and ITU coordination. | Starting from **£2,500–£5,000/year** for entry desktop modeling licenses; flexible pay-per-use and project modules also available | **Free demo version** of Visualyse Professional available (includes tutorial datasets for propagation and antenna modeling) + free standalone **VisTools** utilities. |
+| **[ATDI ICS Telecom / HTZ](https://www.atdi.com/)** | RF planning, spectrum management, and tactical communications suite (HTZ Communications / Warfare) supporting coverage analysis and frequency assignments. | Starting from **€4,500–€9,000/year** for commercial HTZ licenses; academic license packs starting at **€2,000** (5 users) | **No free-forever plan**; **14 to 30-day request-based trial license** (feature/dataset restricted) and no-obligation live evaluation demo available. |
+| **[Anritsu Spectrum Master](https://www.anritsu.com/)** | Spectrum-analysis and field-test ecosystem providing RF measurements, interference hunting, signal analysis, and remote monitoring (Vision MX280001A). | Utility tools **$0 (bundled)** with instrument purchases; Vision remote spectrum monitoring software options start from **$2,500** per instrument | **Free-forever plan**: Full PC utility suite (**Master Software Tools**, Line Sweep Tools, easyTest, easyMap via Anritsu Software Tool Box) free to download and use with Anritsu trace data. |
+| **[Keysight Nemo Outdoor](https://www.keysight.com/)** | Drive-test, field data collection, and RF measurement platform supporting 5G NR/LTE benchmarking, scanner support, and Nemo Cloud analytics. | Starting from **$5,000–$12,000/year per test seat** depending on supported technologies, test terminals, and scanner module options | **No free-forever plan**; Request-based budgetary evaluation, live product walkthrough, and temporary loaner/trial test licenses via Keysight sales. |
+| **[TEOCO ASSET](https://www.teoco.com/)** | Radio access network planning and optimization platform supporting multi-technology RF engineering, capacity planning, and coverage prediction. | Starting from **$10,000–$25,000/year per operator seat** based on network scale, technology tiers (5G/4G/IoT), and optimization modules | **No free-forever plan**; Request-based customized proof-of-concept (PoC) and guided live product demonstration for mobile network operators. |
+| **[CloudRF](https://cloudrf.com/)** | Cloud-based RF propagation modeling and radio network coverage prediction API/web platform with global terrain and clutter datasets. | Paid plans start at **£40/month** (or £45/mo pay-as-you-go; £405/year Bronze tier); Silver at **£80/mo**; Gold at **£144/mo**; Platinum at **£288/mo** | **Free-forever plan**: Includes **10 km radius limit**, **50 API requests/month**, 4 MP resolution, and frequency support restricted to <1 GHz. |
+| **[Ranplan](https://www.ranplanwireless.com/)** | Wireless network planning platform focused on indoor, outdoor, and heterogeneous 5G, Wi-Fi, and private network RF design. | FlexiLease short-term leasing starting from **£300–£800/month**; perpetual FlexiBuy and InfinityPlus licenses starting from **£6,000** | **Free-forever plan**: **Ranplan Viewer** is completely free to download and inspect 2D/3D network designs; project-based trial access available upon request. |
+| **[iBwave](https://www.ibwave.com/)** | In-building and private cellular network RF design and planning platform widely used for DAS, small cells, and Wi-Fi deployments. | **$513 for a 30-day subscription** (Private Networks Wi-Fi) and **$685 for a 30-day subscription** (Mobile Planner); iBwave Viewer+ at **$1,424/year** | **14 to 15-day free trial**: 15-day free trial for Mobile Planner, Mobile Survey, and Wi-Fi Mobile; 14-day trial for Express; 30-day trial for Unity (export/project size capped). |
+| **[Aviat WTM / Design](https://www.aviatnetworks.com/)** | Microwave link planning and wireless transport management tools supporting point-to-point path design and WTM radio capacity management. | Aviat Design web planning tool is **$0 (100% Free)**; WTM radio link capacity licenses start from **$500–$2,000** per link | **Free-forever plan**: Full cloud-based link engineering and microwave path calculations available at **$0** with unlimited standard link designs upon free AviatCloud registration. |
+| **[Siterra](https://www.siterra.com/)** | Telecom infrastructure, site management, and project tracking platform supporting antenna sites and wireless asset lifecycle workflows. | Starting from **$300–$600/month** (typically billed annually at **$3,600–$7,200/year** based on user seats and site portfolio count) | **No free-forever plan**; Request-based guided interactive demo and customized pilot evaluation through Accruent sales representatives. |
+| **[Ericsson Network Intelligence](https://www.ericsson.com/)** | AI-driven cognitive software and RAN analytics platform supporting automated radio resource optimization and network performance intelligence. | Starting from **$15,000–$50,000/year** per network cluster subscription or outcome-based managed service agreement | **No free-forever plan**; Guided operator Proof-of-Concept (PoC) and scoped pilot trials available for CSPs to measure energy/throughput KPIs prior to rollout. |
+| **[Nokia AVA](https://www.nokia.com/networks/services/ava/)** | Telecom AI analytics, virtualization, and automation SaaS platform supporting radio efficiency, energy optimization, and network operations. | Starting from **$10,000–$30,000/year** SaaS subscription or pay-on-outcomes model tied to verified energy and operational savings | **No free-forever plan**; Request-based live workflow demonstrations and capability assessment consultations arranged via Nokia sales. |
+| **[Airbus Spectrum Management](https://www.airbus.com/)** | Mission-critical spectrum management and electromagnetic situational awareness solutions for defense, security, and public safety agencies. | Starting from **€25,000–€100,000+** for specialized governmental and defense spectrum planning systems and electronic warfare modules | **No free-forever plan**; Government and defense consultation with controlled capability demonstrations via official defense procurement channels. |
+| **[Rohde & Schwarz Spectrum Monitoring](https://www.rohde-schwarz.com/)** | ITU-compliant spectrum monitoring, signal interception, direction finding, and radiomonitoring software suites (R&S ARGUS & RAMON). | Core ARGUS workstation software licenses starting from **€10,000–€35,000** (modular software packages excluding sensor hardware) | **30-day free trial** for specific instrument software options; request-based live system demonstration and loaner evaluation hardware for regulatory authorities. |
 
 
 
